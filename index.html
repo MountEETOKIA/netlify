@@ -1,10 +1,26 @@
 <html>
-    
-  <meta HTTP-EQUIV="REFRESH" content="0; url=googlechrome://www.mounteetokia.siteleaf.net">
+<body>
+
+<script>
+function myFunction() {
+  var copyText = document.getElementById("myInput");
+  copyText.select();
+  copyText.setSelectionRange(0, 99999)
+  document.execCommand("copy");
+  alert("Copied " + copyText.value);
+}
+</script>
+
+</body>
+
+<meta HTTP-EQUIV="REFRESH" content="0; url=googlechrome://www.mounteetokia.siteleaf.net">
   
     <p><font size="500"><center>Not automatically redirected?</center></font></p><br>
-    <h2><center><font size="100">Search for <mark>http://mounteetokia.siteleaf.net</mark> [Click to COPY URL] in your mobile browser.</center></font></h2><br>
+    
+    <h2><font size="100"><center>Search for <mark>http://mounteetokia.siteleaf.net</mark> in your mobile browser.<br><button onclick="myFunction()" style="width: 700px; height: 100px; font-size: 60px">[Click to COPY URL]</button></center></font></h2><br>
 <p><center><font size="100">Instagram's in-app browser <strong>limits functionality</strong> and causes <strong>glitches</strong>.</font></center></p>
   
+<input type="text" value="http://mounteetokia.siteleaf.net" id="myInput">
+
 </html>
 
